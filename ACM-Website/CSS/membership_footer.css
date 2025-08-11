@@ -172,11 +172,14 @@ body {
   flex-direction: row;
   gap: 16%;
   /* width: 360px; */
-  margin-top: 30px;
+  margin-top: 28px;
   justify-content: center;
 }
 .footer-sitemap li {
   list-style: none;
+  font-size: 13px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 .footer-sitemap a {
   color: white;
@@ -299,4 +302,54 @@ body {
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+ 
+.sitemap-heading {
+  padding-left: 0;
+  text-align: left;
+}
+.footer-sitemap {
+  justify-content: flex-start;
+  gap: 40px;
+  margin-top: 16px;
+}
+.footer-sitemap li {
+  font-size: 14px;
+}
+.sitemap-left,
+.sitemap-right {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-detail-container p,
+.footer-mail a,
+.footer-phone a,
+.footer-direction a {
+  font-size: 14px;
+}
+
+/* Center sitemap heading and content */
+.sitemap-heading {
+  text-align: center;
+  padding-left: 0;
+}
+.footer-sitemap {
+  justify-content: center;
+}
+.sitemap-left,
+.sitemap-right {
+  align-items: center;
+}
+.footer-sitemap li {
+  text-align: center;
+}
+
+
+
+/* Increase column-wise spacing between sitemap columns */
+.footer-sitemap {
+  column-gap: 64px;
 }
